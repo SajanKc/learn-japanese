@@ -1,0 +1,22 @@
+.app {
+	height: 100vh;
+}
+
+.main_content {
+	max-width: 320px;
+}
+
+.main_content .heading {
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.options button {
+	width: 100%;
+	font-weight: bold;
+}
+
+.btn-check:focus + .btn-warning,
+.btn-warning:focus {
+	box-shadow: none !important;
+}
